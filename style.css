@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  margin: 0 auto;
+  margin-top: 7rem;
+  width: 20rem;
+  height: 35rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.images img {
+  max-width: 18rem;
+  border-radius: 15px;
+}
+
+.view {
+  padding: 7.5rem;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+}
+
+.view:hover {
+  opacity: 1;
+  background-color: hsl(178, 100%, 50%, 0.5);
+}
+
+.content-desc {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.title {
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.description {
+  margin: 10px 0;
+  max-width: 100%;
+  color: hsl(215, 51%, 70%);
+}
+
+.price-time {
+  margin: 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 65px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+}
+
+.price img {
+  margin-right: 10px;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.time img {
+  margin-right: 10px;
+}
+
+.divider {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  max-width: 280px;
+  margin: 15px 0;
+  margin-bottom: 5px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  color: hsl(215, 51%, 70%);
+}
+
+.author img {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.author a {
+  text-decoration: none;
+  color: white;
+}
+
+.author a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  text-align: center;
+  padding-top: 50px;
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(178, 100%, 50%);
+  text-decoration: underline;
+}
