@@ -19,8 +19,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![Desktop Screenshot]()
-![Mobile Screenshot]()
+![Desktop Screenshot](https://github.com/kurokurome/nft-preview-card-component/blob/5eeec94908ef4181367dc9a0d409e4ee67466f4b/Desktop-Preview.png)
+![Mobile Screenshot](https://github.com/kurokurome/nft-preview-card-component/blob/5eeec94908ef4181367dc9a0d409e4ee67466f4b/Mobile-Preview.png)
 
 ## My process
 
